@@ -1,0 +1,79 @@
+version: '3'
+services:
+        dns82:  
+                container_name: rede-teste-82
+                build: 
+                        context: .
+                        dockerfile: Dockerfile
+                        args:
+                                rede: 82
+                ports:
+                        - 53:53/tcp
+                        - 53:53/udp
+                networks:
+                        - rede-82
+        
+        dns83:  
+                container_name: rede-teste-83
+                build: 
+                        context: .
+                        dockerfile: Dockerfile 
+                        args:
+                                rede: 83
+                ports:
+                        - 53:53/tcp
+                        - 53:53/udp
+                networks:
+                        - rede-83
+
+        dns84:  
+                container_name: rede-teste-84
+                build: 
+                        context: .
+                        dockerfile: Dockerfile 
+                        args:
+                                rede: 84
+                ports:
+                        - 53:53/tcp
+                        - 53:53/udp
+                networks:
+                        - rede-84
+
+        dns85:  
+                container_name: rede-teste-85
+                build: 
+                        context: .
+                        dockerfile: Dockerfile 
+                        args:
+                                rede: 85
+                ports:
+                        - 53:53/tcp
+                        - 53:53/udp
+                networks:
+                        - rede-85
+        
+        dns86:  
+                container_name: rede-teste-86
+                build: 
+                        context: .
+                        dockerfile: Dockerfile 
+                        args:
+                                rede: 86
+                ports:
+                        - 53:53/tcp
+                        - 53:53/udp
+                networks:
+                        - rede-86
+
+
+networks:
+    rede-82:
+      external: true 
+    rede-83:
+      external: true 
+    rede-84:
+      external: true 
+    rede-85:
+      external: true
+    rede-86:
+      external: true
