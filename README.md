@@ -1,6 +1,6 @@
 # dnsfogxx
 
-*A simple multi DNS docker image*
+*A simple multi DNS docker image configuration*
 
 
 
