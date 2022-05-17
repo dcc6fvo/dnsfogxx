@@ -6,7 +6,8 @@ services:
                         context: .
                         dockerfile: Dockerfile
                         args:
-                                rede: 82
+                          - network: 172.16.82
+                          - zone: cti           
                 ports:
                         - 53:53/tcp
                         - 53:53/udp
@@ -19,7 +20,8 @@ services:
                         context: .
                         dockerfile: Dockerfile 
                         args:
-                                rede: 83
+                          - network: 172.16.83
+                          - zone: cti                
                 ports:
                         - 53:53/tcp
                         - 53:53/udp
@@ -32,7 +34,8 @@ services:
                         context: .
                         dockerfile: Dockerfile 
                         args:
-                                rede: 84
+                          - network: 172.16.84
+                          - zone: cti
                 ports:
                         - 53:53/tcp
                         - 53:53/udp
@@ -45,7 +48,8 @@ services:
                         context: .
                         dockerfile: Dockerfile 
                         args:
-                                rede: 85
+                          - network: 172.16.85
+                          - zone: cti
                 ports:
                         - 53:53/tcp
                         - 53:53/udp
@@ -58,7 +62,8 @@ services:
                         context: .
                         dockerfile: Dockerfile 
                         args:
-                                rede: 86
+                          - network: 172.16.86
+                          - zone: cti
                 ports:
                         - 53:53/tcp
                         - 53:53/udp

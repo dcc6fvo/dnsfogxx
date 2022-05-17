@@ -1,0 +1,12 @@
+$TTL    86400
+@       IN      SOA     zzzz.zone. (
+                             14         ; Serial - Não precisa alterar
+                          14400         ; Refresh
+                           1800         ; Retry
+                        1209600         ; Expire
+                           3600 )       ; Negative Cache TTL
+
+@                       IN      NS      zzzz.zone.
+
+docker-dns-fog	IN	A	XX.YY.ZZ.9
+fog             IN      A       XX.YY.ZZ.10

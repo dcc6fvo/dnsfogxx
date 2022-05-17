@@ -1,0 +1,13 @@
+$TTL    86400
+@       IN      SOA     zzzz.zone. (
+                             14         ; Serial
+                          14400         ; Refresh
+                           1800         ; Retry
+                        1209600         ; Expire
+                           3600 )       ; Negative Cache TTL
+
+@                       IN      NS      zzzz.zone.
+
+10              IN      PTR	fog.	
+;
+
