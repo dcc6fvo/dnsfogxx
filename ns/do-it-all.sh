@@ -30,8 +30,8 @@ do_reverse()
 
 do_changes()
 {
- mv /tmp/ZZ.YY.XX.in-addr.arpa /etc/bind/$1.in-addr-arpa
- sed -i "s/zzzz/$2/g" /etc/bind/$1.in-addr-arpa
+ mv /tmp/ZZ.YY.XX.in-addr.arpa /etc/bind/$1.in-addr.arpa
+ sed -i "s/zzzz/$2/g" /etc/bind/$1.in-addr.arpa
  
  mv /tmp/db.zone /etc/bind/db.$2
  sed -i "s/zzzz/$2/g" /etc/bind/db.$2
