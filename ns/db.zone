@@ -1,5 +1,5 @@
 $TTL    86400
-@       IN      SOA     zzzz.zone. (
+@       IN      SOA     zzzz.zone. fvolpato.com. (
                              14         ; Serial - Não precisa alterar
                           14400         ; Refresh
                            1800         ; Retry
