@@ -12,9 +12,10 @@ First you need to setup the corresponding networks, i.e.:
 
 ```
 docker network create -d bridge -o       com.docker.network.bridge.host_binding_ipv4=172.16.80.9 rede-80
-```
-```
+
 docker network create -d bridge -o       com.docker.network.bridge.host_binding_ipv4=172.16.81.9 rede-81
-``````
+
 docker network create -d bridge -o       com.docker.network.bridge.host_binding_ipv4=172.16.82.9 rede-82
+
+etc..
 ```
