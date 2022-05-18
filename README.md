@@ -8,8 +8,13 @@ The main purpose of this code is to make it possible to create several instances
 
 # Usage
 
-
+First you need to setup the corresponding networks, i.e.:
 
 ```
-docker run -p 8080:8080 -p 50000:50000 --restart always jenkins/jenkins:lts-jdk11
+docker network create -d bridge -o       com.docker.network.bridge.host_binding_ipv4=172.16.80.9 rede-80
+```
+```
+docker network create -d bridge -o       com.docker.network.bridge.host_binding_ipv4=172.16.81.9 rede-81
+``````
+docker network create -d bridge -o       com.docker.network.bridge.host_binding_ipv4=172.16.82.9 rede-82
 ```
