@@ -7,8 +7,9 @@ The main purpose of this code is to make it possible to create several instances
 <img src="https://gitlab.isc.org/uploads/-/system/project/avatar/1/Bind_9_Mark_ISC_Blue.png?width=64"/>
 
 # Requirements
-   -Docker
-   -Docker compose
+
+* Docker
+* Docker compose
 
 # Usage
 
