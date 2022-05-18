@@ -20,7 +20,7 @@ docker network create -d bridge -o com.docker.network.bridge.host_binding_ipv4=1
 etc..
 ```
 
-Then, you need to define your docker compose file with your requirements. In this example we are creating three containers wich one linked with a specific network interface defined before, i.e:
+Then, you need to define your docker compose file with your requirements (use the docker-compose.yml file from this project as a start). In this example we are creating three containers wich one linked with a specific network interface defined before, i.e:
 
 ```
 services:
