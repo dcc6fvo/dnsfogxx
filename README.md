@@ -82,3 +82,10 @@ In the next step you need to build your docker compose with your requirements, i
 ```
 docker compose build --no-cache
 ```
+
+Finally, start the containers:
+
+```
+docker compose up
+```
+
