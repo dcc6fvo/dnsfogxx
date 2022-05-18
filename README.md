@@ -2,7 +2,7 @@
 
 *A simple multi DNS docker image configuration*
 
-<img src="https://gitlab.isc.org/uploads/-/system/project/avatar/1/Bind_9_Mark_ISC_Blue.png?width=128"/>
+<img src="https://gitlab.isc.org/uploads/-/system/project/avatar/1/Bind_9_Mark_ISC_Blue.png?width=64"/>
 
 # Usage
 
